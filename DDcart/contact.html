@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDcart</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/contact.css">  
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</html>
+<body>
+    <!-- Nav bar -->
+     <nav class="navbar">
+        <h1>Dcart</h1>
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        
+        </div>
+
+        <div class="navbar-menu-toggle" onclick ="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+     </nav>
+
+      <!--Side navbar-->
+      <div class="side-navbar">
+        <p style="text-align:right;" onclick ="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+         
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        </div>
+
+
+<!--contact page-->
+<div class="contact">
+    <center>
+    <h2>Contact Us</h2>
+    </center>
+    <p>Have questions or need assistance? We're here to help.</p>
+</div>
+
+<form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="tel" placeholder="Phone Number">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+        <h3>Get In Touch</h3>
+        <p> <i class="fa-solid fa-location-dot"></i> Madurai, Tamil Nadu, India</p>
+        <p> <i class="fa-solid fa-phone"></i> +91 7094689836</p>
+        <p>  <i class="fa-solid fa-envelope"></i> support@ddcart.com</p>
+    </div>
+</section>
+      <script src="js/collections.js"></script>
+
+</body>
+</html>
